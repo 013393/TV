@@ -1,4 +1,3 @@
-```vue
 <template>
   <div class="movie-card" @click="openMovie">
     <div class="poster-box">
@@ -66,7 +65,6 @@ export default {
   },
 }
 </script>
-```css
 <style scoped>
 .movie-card {
   width: 100%;
@@ -181,7 +179,6 @@ export default {
   font-size: 13px;
 }
 
-/* Tablet */
 @media (max-width: 768px) {
   .poster-box {
     height: 220px;
@@ -196,7 +193,6 @@ export default {
   }
 }
 
-/* iPhone / Mobile */
 @media (max-width: 600px) {
   .poster-box {
     height: 200px;
@@ -221,7 +217,6 @@ export default {
   }
 }
 
-/* iPhone */
 @media (max-width: 430px) {
   .movie-card {
     border-radius: 7px;
